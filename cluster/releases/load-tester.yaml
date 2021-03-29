@@ -8,8 +8,8 @@ metadata:
 spec:
   releaseName: load-tester
   chart:
-    git: https://flagger.app
-    ref: 0.18.0
-    path: charts/loadtester
+    repository: https://flagger.app
+    name: loadtester
+    version: 0.18.0
   values:
     fullnameOverride: load-tester
